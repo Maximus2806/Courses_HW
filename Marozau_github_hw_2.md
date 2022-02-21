@@ -18,7 +18,7 @@ _3. В ветке Bag Reports сделать текстовый документ
 _4. Запушить структуру багрепорта на внешний репозиторий_ 
 - __git add .__   
 - __git commit -m "Create bugrreport.txt"__
-- __git push__  
+- __git push --set-upstream origin Bugreports__  
 
 _5. Вмержить ветку Bag Reports в Main:_ 
 - __git checkout main__
