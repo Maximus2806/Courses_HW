@@ -92,7 +92,7 @@
 							"console.log(ourResponse.family);\r",
 							"// 12. Проверить что u_salary_1_5_year в ответе равно salary*4 (salary забрать из request)\r",
 							"pm.test(\"Your u_salary_1_5_year = salary*4\", function () {\r",
-							"    pm.expect(+ourResponse.u_salary_1_5_year).to.eql(+ourRequest.u_salary_1_5_year); \r",
+							"    pm.expect(+ourResponse.family.u_salary_1_5_year).to.eql(ourRequest.salary*4); \r",
 							"});\r",
 							""
 						],
