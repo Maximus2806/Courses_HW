@@ -58,8 +58,8 @@ select min(id) as Smallest_Id from public.students;
 select max(id) as Largest_Id from public.students;
 --30. Show the number of users
 select count(id) from public.students;
---31. Show user's id, name, creation date. Sort in ascending order of creation date
+--31. Show user's id, name, creation date. Sort ascending by created_on column
 select id, name, created_on from public.students order by created_on;
---32. Show user's id, name, creation date. Sort in descending order of creation date
+--32. Show user's id, name, creation date. Sort descending by created_on column
 select id, name, created_on from public.students order by created_on desc;
  
