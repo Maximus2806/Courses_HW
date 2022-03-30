@@ -2,6 +2,7 @@
 --1. Create a table called 'employees'
 -- - id. serial,  primary key,
 -- - employee_name. Varchar(50), not null
+--drop table employees27;
 create table employees27(
 	id serial primary key,
 	employee_name Varchar(50) not null);
@@ -77,7 +78,7 @@ values ('Quillen Gray'),
 		('Zavier Clark'),
 		('William Hall'),
 		('Uzziel Washington');
-select * from salary27;
+select * from employees27;
 -- Table 'salary27'
 -- 3. Create a table called 'salary27'
 -- - id. Serial  primary key,
@@ -235,13 +236,13 @@ values(2,2),
 (27,8),
 (29,9),
 (13,1),
-(19,3),
-(37,6),
+(19,20),
+(37,19),
 (32,5),
 (59,8),
 (58,8),
 (40,2),
-(20,3),
+(20,18),
 (3,11),
 (17,3);
-select * from employee_salary27
+
