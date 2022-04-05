@@ -245,4 +245,4 @@ values(2,2),
 (20,18),
 (3,11),
 (17,3);
-
+select * from roles_employee27;
