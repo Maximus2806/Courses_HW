@@ -164,10 +164,10 @@
 - cp ``grep -lr "sec" *` inner_dir_1
 
  *38. Команда в одну строку. Найти все строки c “sec” во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный текстовый файл.*
-- echo ``grep -r "sec" *` > inner_dir_2/tf_7.txt
+- echo `grep -r "sec" *` > inner_dir_2/tf_7.txt
 
  *39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово “sec”*
-- echo ``grep -rh "sec" *` >> inner_dir_2/tf_7.txt
+- echo `grep -rh "sec" *` >> inner_dir_2/tf_7.txt
 
  *40. Просто вывести в терминал строку “Good job!!”*
  - echo 'Good job!!'
