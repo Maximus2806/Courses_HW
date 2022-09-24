@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1664023869818,160,user_info,200,OK,Thread Group 2-1,text,true,,383,311,1,1,http://162.55.220.72:5006/user_info,160,0,75
+1664023869979,120,new_data,200,OK,Thread Group 2-1,text,true,,237,319,1,1,http://162.55.220.72:5006/new_data,120,0,58
+1664023870100,128,test_pet_info,200,OK,Thread Group 2-1,text,true,,230,322,1,1,http://162.55.220.72:5006/test_pet_info,128,0,58
+1664023870230,119,get_test_user,200,OK,Thread Group 2-1,text,true,,368,322,1,1,http://162.55.220.72:5006/get_test_user,119,0,56
